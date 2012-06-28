@@ -21,9 +21,6 @@
         "uglify-js": ">=1.1.0"
     },
     "main": "index",
-    "engines": {
-        "node": "~0.6"
-    },
     "scripts": {
         "prepublish": "npm prune",
         "test": "make lint && make test"
